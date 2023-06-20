@@ -1,0 +1,108 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 300px;
+    display: flex;
+}
+
+h1#resultado {
+    margin: 0px;
+    padding-bottom: 60px;
+}
+
+.pontuacao {
+    font-size: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.total {
+    margin: 0px;
+    margin-bottom: 70px;
+    margin-top: -75px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 15px;
+}
+
+p.explicacao {
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 95px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+}
+
+aside {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.095);
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 40px;
+    width: 1000px;
+}
+
+li {
+    padding: 20px;
+    text-align: center;
+    width: 370px;
+    margin: 15px;
+}
+
+li span {
+    padding-left: 140px;
+}
+
+.sumario {
+    margin: 10px 10px 25px 18px;
+
+}
+
+.Reaction {
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.121);
+}
+
+.Memory {
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.121);
+}
+
+.Verbal {
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.121);
+}
+
+.Visual {
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.121);
+}
+
+.button {
+    padding: 25px 155px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
